@@ -5,7 +5,7 @@
 #define B_RD     2   // lecture
 #define B_WR     3   // écriture
 #define PL       A3  // stockage dans 74HCT165
-#define B_IO     A5  // écriture
+#define B_IO     A5  // connecter à /IORQ du Z80 et /CS2 du 16550
 
 // MOSI : 11 n/a
 // MISO : 12
